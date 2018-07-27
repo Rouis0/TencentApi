@@ -1,0 +1,18 @@
+{
+    "name": "rouis/tencen_api",
+    "description": "a abtract tool about tencent's api",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Jim",
+            "email": "Jim_Lee@xiyanghui.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rouis\\": "/"
+        }
+    }
+}
