@@ -1,5 +1,6 @@
 {
     "name": "rouis/tencent_api",
+    "keywords": ["api", "tencent", "wework", "mail"],
     "license": "MIT",
     "description": "a abtract tool about tencent's api",
     "require": {
