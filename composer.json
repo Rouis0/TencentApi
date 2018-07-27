@@ -1,5 +1,5 @@
 {
-    "name": "rouis/tencen_api",
+    "name": "rouis/tencent_api",
     "description": "a abtract tool about tencent's api",
     "require": {
         "guzzlehttp/guzzle": "^6.3"
