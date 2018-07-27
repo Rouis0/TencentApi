@@ -1,5 +1,6 @@
 {
     "name": "rouis/tencent_api",
+    "license": "MIT",
     "description": "a abtract tool about tencent's api",
     "require": {
         "guzzlehttp/guzzle": "^6.3"
