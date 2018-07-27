@@ -130,14 +130,13 @@ abstract class TencentApiClient
 
     private function getErrorFromResponse($response)
     {
-        if (isset($response->errcode)) {
+        if (!isset($response->errcode)) {
             return new TencentApiError(400, '数据异常');
         }
 
         if ($response->errcode) {
             return new TencentApiError($response->errcode, $response->errmsg);
         }
-        return true;
     }
 
 }
